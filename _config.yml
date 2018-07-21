@@ -1,0 +1,47 @@
+# Permalinks
+permalink:           /:title/
+
+# Setup
+title:               Блог Сергея
+tagline:             Пишу о программировании, книгах, видеокурсах.
+url:                 https://serhii73.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Sergey
+  url:               https://serhii73.github.io
+  email:             aserhii@protonmail.com
+
+google_analytics: UA-122703915-1
+
+footer-links:
+  email: aserhii@protonmail.com
+  github: serhii73
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/serhii73
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
+host: 0.0.0.0
+port: 4000
