@@ -3,8 +3,8 @@ permalink:           /:title/
 
 # Setup
 title:               Блог Сергея
-tagline:             Пишу о программировании, книгах, видеокурсах.
-url:                 https://serhii73.github.io
+tagline:             Ми пройдемо усі уроки по Scratch з цього вебсайту - https://www.uacodeacademy.com
+url:                 https://osvita-code.github.io/scratch
 paginate:            1
 baseurl:             ""
 
@@ -21,7 +21,7 @@ author:
   url:               https://serhii73.github.io
   email:             aserhii@protonmail.com
 
-google_analytics: UA-122703915-1
+google_analytics: UA-152987198-1
 
 footer-links:
   email: aserhii@protonmail.com
