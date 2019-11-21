@@ -2,7 +2,7 @@
 permalink:           /:title/
 
 # Setup
-title:               Блог Сергея
+title:               Програмування на Scratch
 tagline:             Ми пройдемо усі уроки по Scratch з цього вебсайту - https://www.uacodeacademy.com
 url:                 https://osvita-code.github.io/scratch
 paginate:            1
@@ -18,7 +18,7 @@ sass:
 # About/contact
 author:
   name:              Sergey
-  url:               https://serhii73.github.io
+  url:               https://osvita-code.github.io/scratch
   email:             aserhii@protonmail.com
 
 google_analytics: UA-152987198-1
@@ -30,7 +30,7 @@ footer-links:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/serhii73
+  repo:              https://github.com/osvita-code/scratch
 
 # Gems
 plugins:
