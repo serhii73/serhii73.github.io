@@ -26,26 +26,26 @@ title: Home
 
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать Далее</a> -->
     <div class="entry">{{ post.content }}</div>
-    
+
   </article>
   {% endfor %}
 </div>
 
 
 
-<!-- <div class="pagination">
+<div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Старіші пости</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+  <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Новіші пости</a>
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+  <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div> -->
-<div class="pagination">
+</div>
+<!-- <div class="pagination">
   <h4>
      {% if paginator.previous_page %}
     <a href="{% if paginator.previous_page == 1%}/{% else %}/page{{ paginator.previous_page }}{% endif %}" class="previous"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>    {% endif %}
@@ -54,4 +54,4 @@ title: Home
     <a href="/page{{ paginator.next_page }}" class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> {% endif
     %}
   </h4>
-</div>
+</div> -->
