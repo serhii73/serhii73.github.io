@@ -37,12 +37,12 @@ title: Home
   {% if paginator.next_page %}
   <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Старіші пости</a>
   {% else %}
-  <span class="pagination-item older">Older</span>
+  <span class="pagination-item older">Старіші пости</span>
   {% endif %}
   {% if paginator.previous_page %}
   <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Новіші пости</a>
   {% else %}
-  <span class="pagination-item newer">Newer</span>
+  <span class="pagination-item newer">Новіші пости</span>
   {% endif %}
 </div>
 <!-- <div class="pagination">
