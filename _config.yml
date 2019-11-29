@@ -5,7 +5,7 @@ permalink:           /:title/
 title:               Програмування на Scratch
 tagline:             Ми пройдемо усі уроки по Scratch з цього вебсайту - https://www.uacodeacademy.com
 url:                 https://osvita-code.github.io/scratch
-paginate:            1
+paginate:            2
 baseurl:             "https://osvita-code.github.io/scratch"
 
 # Assets
